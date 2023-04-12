@@ -32,4 +32,19 @@ class GobeletTest {
     public void scoreValeur(){
         assertEquals(4, gobelet.lancer());
     }
+
+    @Test
+    @DisplayName("Si je joue en premier alors aucun autre joueurs n'a lancer le gobelet")
+    public void nombreDeJeurPrecedent(){
+        int nombreJoueurPrecedent = gobelet.getNombreJoueurPrecedent();
+        assertEquals(0, nombreJoueurPrecedent);
+    }
+
+    @Test
+    @DisplayName("Si un autre joueur joue avant, je sais qu'il y a un joueur precedent")
+    public void joueurPrecedent(){
+        gobelet.lancer();
+        int nombreJoueurPrecedent = gobelet.getNombreJoueurPrecedent();
+        assertEquals(1, nombreJoueurPrecedent);
+    }
 }
