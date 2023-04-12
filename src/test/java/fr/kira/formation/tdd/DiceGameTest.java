@@ -42,4 +42,6 @@ class DiceGameTest {
         int nombreDes = diceGame.getNombreDes();
         assertEquals(3, nombreDes);
     }
+
+
 }

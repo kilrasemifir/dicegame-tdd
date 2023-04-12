@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9060afe-44a7-4661-bf4b-cad300393208" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/De.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/GobeletTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/Gobelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/Gobelet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +16,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,7 +59,7 @@
       <recent name="fr.kira.formation.tdd" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GobeletTest">
     <configuration name="DiceGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DiceGame" />
       <extension name="coverage">
@@ -69,8 +75,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GobeletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DiceGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.kira.formation.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.kira.formation.tdd" />
+      <option name="MAIN_CLASS_NAME" value="fr.kira.formation.tdd.GobeletTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GobeletTest" />
         <item itemvalue="JUnit.DiceGameTest" />
       </list>
     </recent_temporary>
@@ -99,6 +121,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest.ic" NAME="DiceGameTest Coverage Results" MODIFIED="1681307124690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fr.kira.formation.tdd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DiceGame$GobeletTest.ic" NAME="GobeletTest Coverage Results" MODIFIED="1681308695063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>fr.kira.formation.tdd.*</FILTER>
     </SUITE>
   </component>
