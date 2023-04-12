@@ -35,4 +35,11 @@ class DiceGameTest {
         int nombreManche = diceGame.getNombreManches();
         assertEquals(4, nombreManche);
     }
+
+    @Test
+    @DisplayName("En tant que joueur, je veux connaitre le nombre de dés que je lance. (=nbJoueur)")
+    public void getNombreDes(){
+        int nombreDes = diceGame.getNombreDes();
+        assertEquals(3, nombreDes);
+    }
 }

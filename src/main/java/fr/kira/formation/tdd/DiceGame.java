@@ -22,4 +22,8 @@ public class DiceGame {
     public int getNombreManches() {
         return this.joueurs.size()+1;
     }
+
+    public int getNombreDes() {
+        return this.getNombreParticipants();
+    }
 }

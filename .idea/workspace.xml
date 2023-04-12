@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9060afe-44a7-4661-bf4b-cad300393208" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/Joueur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" afterDir="false" />
