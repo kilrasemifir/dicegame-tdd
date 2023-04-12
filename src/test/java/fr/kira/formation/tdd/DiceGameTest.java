@@ -12,7 +12,7 @@ class DiceGameTest {
 
     @BeforeEach
     void setUp() {
-        diceGame = new DiceGame();
+        diceGame = new DiceGame(new Joueur(), new Joueur(), new Joueur());
     }
 
     @Test
@@ -20,5 +20,19 @@ class DiceGameTest {
     public void saisirGobelet(){
         Gobelet gobelet = diceGame.saisirGobelet();
         assertNotNull(gobelet);
+    }
+
+    @Test
+    @DisplayName("En tant que joueur, je veux connaitre le nombre de participants.")
+    public void getNombrePaticipants(){
+        int nombreParticipants = diceGame.getNombreParticipants();
+        assertEquals(3, nombreParticipants);
+    }
+
+    @Test
+    @DisplayName("En tant que joueur, je veux connaitre le nombre de manches. (nbJoueur+1)")
+    public void getNombreManche(){
+        int nombreManche = diceGame.getNombreManches();
+        assertEquals(4, nombreManche);
     }
 }

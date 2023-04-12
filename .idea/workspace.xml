@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9060afe-44a7-4661-bf4b-cad300393208" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/Gobelet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/Joueur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,5 +97,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest.ic" NAME="DiceGameTest Coverage Results" MODIFIED="1681307124690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fr.kira.formation.tdd.*</FILTER>
+    </SUITE>
   </component>
 </project>
