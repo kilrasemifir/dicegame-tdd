@@ -6,9 +6,16 @@ import java.util.List;
 public class DiceGame {
 
     private final List<Joueur> joueurs;
+    private Gobelet gobelet;
 
-    public DiceGame(Joueur... joueurs){
+    public DiceGame(Gobelet gobelet, Joueur... joueurs){
         this.joueurs = new ArrayList<>(List.of(joueurs));
+        this.gobelet = gobelet;
+
+    }
+
+    public void setGobelet(Gobelet gobelet) {
+        this.gobelet = gobelet;
     }
 
     public Gobelet saisirGobelet(){
@@ -25,5 +32,9 @@ public class DiceGame {
 
     public int getNombreDes() {
         return this.getNombreParticipants();
+    }
+
+    public int lancerGobelet(){
+        return this.gobelet.lancer();
     }
 }

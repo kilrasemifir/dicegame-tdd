@@ -3,16 +3,20 @@ package fr.kira.formation.tdd;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
+import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class DiceGameTest {
 
     DiceGame diceGame;
-
+    Gobelet gobelet;
     @BeforeEach
     void setUp() {
-        diceGame = new DiceGame(new Joueur(), new Joueur(), new Joueur());
+        gobelet = Mockito.mock(Gobelet.class);
+        Mockito.when(gobelet.lancer()).thenReturn(5);
+        diceGame = new DiceGame(gobelet, new Joueur(), new Joueur(), new Joueur());
     }
 
     @Test
@@ -41,6 +45,13 @@ class DiceGameTest {
     public void getNombreDes(){
         int nombreDes = diceGame.getNombreDes();
         assertEquals(3, nombreDes);
+    }
+
+    @Test
+    @DisplayName("Lors ce que je lance le gobelet, je recupere son score")
+    public void scoreGobelet(){
+        int score = diceGame.lancerGobelet();
+        assertEquals(5, score);
     }
 
 

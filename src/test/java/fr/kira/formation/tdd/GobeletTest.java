@@ -47,4 +47,5 @@ class GobeletTest {
         int nombreJoueurPrecedent = gobelet.getNombreJoueurPrecedent();
         assertEquals(1, nombreJoueurPrecedent);
     }
+
 }
