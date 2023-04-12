@@ -62,5 +62,12 @@ class DiceGameTest {
         assertEquals(1, dejaJoue);
     }
 
+    @Test
+    @DisplayName("En tant que joueur, je veux connaitre combien de joueurs restent à lancer leurs dés.")
+    public void restant(){
+        diceGame.lancerGobelet();
+        int restant = diceGame.getNombreRestant();
+        assertEquals(2, restant);
+    }
 
 }

@@ -40,4 +40,8 @@ public class DiceGame {
     public int getNombreDejaJoue() {
         return this.nombreDejaJoue;
     }
+
+    public int getNombreRestant() {
+        return this.getNombreParticipants()-this.getNombreDejaJoue();
+    }
 }
