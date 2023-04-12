@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9060afe-44a7-4661-bf4b-cad300393208" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,7 @@
     <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest_scoreGobelet.ic" NAME="DiceGameTest.scoreGobelet Coverage Results" MODIFIED="1681309942364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>fr.kira.formation.tdd.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest_quiJoue2.ic" NAME="DiceGameTest.quiJoue2 Coverage Results" MODIFIED="1681310595228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest_quiJoue2.ic" NAME="DiceGameTest.quiJoue2 Coverage Results" MODIFIED="1681310637839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>fr.kira.formation.tdd.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DiceGame$GobeletTest.ic" NAME="GobeletTest Coverage Results" MODIFIED="1681309113497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

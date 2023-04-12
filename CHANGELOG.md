@@ -17,4 +17,3 @@ All notable changes to this project will be documented in this file. See [standa
 * En tant que joueur, je veux passer le gobelet au joueur suivant. ([c70e13c](https://github.com/kilrasemifir/dicegame-tdd/commit/c70e13cdfae37fb14296645526c7f58c36c0a2d3))
 * En tant que joueur, je veux saisir le gobelet ([bcbef77](https://github.com/kilrasemifir/dicegame-tdd/commit/bcbef77f9ccf87e2bd4f5053c0da14ddd8cf6702))
 
-### [1.1.1](https://github.com/kilrasemifir/dicegame-tdd/compare/v1.1.0...v1.1.1) (2023-04-12)
