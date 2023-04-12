@@ -7,6 +7,7 @@
     <list default="true" id="f9060afe-44a7-4661-bf4b-cad300393208" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/DiceGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/Gobelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/kira/formation/tdd/Gobelet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/DiceGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/GobeletTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/kira/formation/tdd/GobeletTest.java" afterDir="false" />
     </list>
@@ -58,7 +59,15 @@
       <recent name="fr.kira.formation.tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DiceGameTest.scoreGobelet">
+  <component name="RunManager" selected="JUnit.All in DiceGame">
+    <configuration name="All in DiceGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DiceGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiceGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DiceGame" />
       <extension name="coverage">
@@ -107,9 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in DiceGame" />
+        <item itemvalue="JUnit.DiceGameTest" />
         <item itemvalue="JUnit.DiceGameTest.scoreGobelet" />
         <item itemvalue="JUnit.GobeletTest" />
-        <item itemvalue="JUnit.DiceGameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,10 +146,11 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest.ic" NAME="DiceGameTest Coverage Results" MODIFIED="1681307124690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DiceGame$All_in_DiceGame.ic" NAME="All in DiceGame Coverage Results" MODIFIED="1681310195073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest.ic" NAME="DiceGameTest Coverage Results" MODIFIED="1681310073395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>fr.kira.formation.tdd.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest_scoreGobelet.ic" NAME="DiceGameTest.scoreGobelet Coverage Results" MODIFIED="1681309626734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/DiceGame$DiceGameTest_scoreGobelet.ic" NAME="DiceGameTest.scoreGobelet Coverage Results" MODIFIED="1681309942364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>fr.kira.formation.tdd.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DiceGame$GobeletTest.ic" NAME="GobeletTest Coverage Results" MODIFIED="1681309113497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

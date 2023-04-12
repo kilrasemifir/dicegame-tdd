@@ -24,8 +24,4 @@ public class Gobelet {
         nombrePrecedent++;
         return result;
     }
-
-    public int getNombreJoueurPrecedent() {
-        return nombrePrecedent;
-    }
 }

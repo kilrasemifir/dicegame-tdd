@@ -7,6 +7,7 @@ public class DiceGame {
 
     private final List<Joueur> joueurs;
     private Gobelet gobelet;
+    private int nombreDejaJoue = 0;
 
     public DiceGame(Gobelet gobelet, Joueur... joueurs){
         this.joueurs = new ArrayList<>(List.of(joueurs));
@@ -14,11 +15,8 @@ public class DiceGame {
 
     }
 
-    public void setGobelet(Gobelet gobelet) {
-        this.gobelet = gobelet;
-    }
-
     public Gobelet saisirGobelet(){
+
         return new Gobelet();
     }
 
@@ -35,6 +33,11 @@ public class DiceGame {
     }
 
     public int lancerGobelet(){
+        this.nombreDejaJoue ++;
         return this.gobelet.lancer();
+    }
+
+    public int getNombreDejaJoue() {
+        return this.nombreDejaJoue;
     }
 }

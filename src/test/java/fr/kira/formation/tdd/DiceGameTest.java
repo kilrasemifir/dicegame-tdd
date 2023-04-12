@@ -54,5 +54,13 @@ class DiceGameTest {
         assertEquals(5, score);
     }
 
+    @Test
+    @DisplayName("Je peux connaitre le nombre de joueur qui ont deja jouer")
+    public void dejaJouer(){
+        diceGame.lancerGobelet();
+        int dejaJoue = diceGame.getNombreDejaJoue();
+        assertEquals(1, dejaJoue);
+    }
+
 
 }
