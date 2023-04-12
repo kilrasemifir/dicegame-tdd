@@ -8,6 +8,7 @@ public class DiceGame {
     private final List<Joueur> joueurs;
     private Gobelet gobelet;
     private int nombreDejaJoue = 0;
+    private int indexJoueur = 0;
 
     public DiceGame(Gobelet gobelet, Joueur... joueurs){
         this.joueurs = new ArrayList<>(List.of(joueurs));
@@ -34,6 +35,7 @@ public class DiceGame {
 
     public int lancerGobelet(){
         this.nombreDejaJoue ++;
+        this.indexJoueur++;
         return this.gobelet.lancer();
     }
 
@@ -43,5 +45,9 @@ public class DiceGame {
 
     public int getNombreRestant() {
         return this.getNombreParticipants()-this.getNombreDejaJoue();
+    }
+
+    public Joueur quiJoue() {
+        return this.joueurs.get(indexJoueur);
     }
 }

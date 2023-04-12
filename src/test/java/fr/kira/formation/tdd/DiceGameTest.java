@@ -12,11 +12,14 @@ class DiceGameTest {
 
     DiceGame diceGame;
     Gobelet gobelet;
+    Joueur joueur1 = new Joueur();
+    Joueur joueur2 = new Joueur();
+    Joueur joueur3 = new Joueur();
     @BeforeEach
     void setUp() {
         gobelet = Mockito.mock(Gobelet.class);
         Mockito.when(gobelet.lancer()).thenReturn(5);
-        diceGame = new DiceGame(gobelet, new Joueur(), new Joueur(), new Joueur());
+        diceGame = new DiceGame(gobelet, joueur1, joueur2, joueur3);
     }
 
     @Test
@@ -68,6 +71,21 @@ class DiceGameTest {
         diceGame.lancerGobelet();
         int restant = diceGame.getNombreRestant();
         assertEquals(2, restant);
+    }
+
+    @Test
+    @DisplayName("Le joueur 1 est le premier a jouer")
+    public void quiJoue(){
+        Joueur joueur = diceGame.quiJoue();
+        assertEquals(joueur1, joueur);
+    }
+
+    @Test
+    @DisplayName("Quand un joueur a jouer, le suivant est le joueur suivant")
+    public void quiJoue2(){
+        diceGame.lancerGobelet();
+        Joueur joueur = diceGame.quiJoue();
+        assertEquals(joueur2, joueur);
     }
 
 }
